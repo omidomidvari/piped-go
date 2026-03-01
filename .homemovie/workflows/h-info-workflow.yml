@@ -1,0 +1,10 @@
+workflow-name: h-info-workflow
+workrun:
+- hpack install -js -g homemovie-cli/@/homemovie/hcli -w -git -workflowterminal -worker
+- hcli make hinfo
+- hcli config hinfo
+- hcli in goprog -p:retina
+- hcli runtime-hinfo -r
+runtime:
+- workflow-js-terminal
+build: system.go.js.compiler
