@@ -1,0 +1,10 @@
+<xml>
+  <h-info>
+    <homemovieid = 0x00f00b0></homemovieid>
+    <ver>0.1.0</ver>
+    <stage>alpha</stage>
+    <prog>go</prog>
+      <mainfile:lang = go>main.go</mainfile>
+        <hash>0quuw8qiuwuui1u1891jwi</hash>
+      </h-info>
+</xml>
